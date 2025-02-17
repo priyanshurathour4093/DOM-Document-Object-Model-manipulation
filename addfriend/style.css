@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(141, 83, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cover{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#cover img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#cover h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+#cover h5{
+    font-size: 28px;
+    color: red;
+    margin: 20px;
+}
+#btn-cover button{
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+/* #btn-cover #remove{
+    background-color: #dadada;
+    color: black;
+} */
